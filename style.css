@@ -1,0 +1,88 @@
+*{
+    /* *은 전체태그를 의미 */
+    /* margin, padding은 박스가 그려져야 적용 가능 */
+    padding: 0px;
+    margin:0px;
+}
+
+/* id 가리킬 때에는 #(id selector)으로, class 가리킬 때에는 .(class selector)으로 */
+#container{
+    width: 60%;
+    height: 100vh;
+    margin-left: 20%;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+}
+
+nav>ul{
+    width: 100%;
+    height: 100%;
+    /* ul안의 li두개를 가로로 배치하고 싶을 때 : ul에 flex를 걸어야 함 */
+    display: flex;
+    margin: 10px;
+    font-size: large;
+    /* 수평 */
+    justify-content: center; 
+    /* 수직 */
+    align-items: center; 
+}
+
+nav>ul>li {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+    /* W3 school, MDN 띄우기 */
+    margin: 5px; 
+    /* 시계방향으로 4개까지 줄 수 있음 */
+    border-radius: 10px;
+    background-color: rgb(250, 166, 40);
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited, a:link{
+    color: white;
+}
+
+a:hover{
+    background-color: bisque;
+    color:rgb(204, 49, 1)
+    font-weight: bold;
+}
+
+
+h1{
+    border-style: double;
+    background-color: azure;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+ul{
+    list-style-type: none;
+    width: 100%;
+}
+
+/* id나 class 설정안해도 >이용해서 위치를 잡을 수 있음 */
+div>ul>li{
+    margin: 10px 40px;
+    padding: 20px;
+    background-color: gainsboro;
+    color: black
+    text-align: center;
+}
+
+/* hover : 마우스 올렸을 때 속성 */
+div>ul>li:hover {
+    background-color: coral;
+    color: white;
+}
