@@ -1,0 +1,48 @@
+article{
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(221, 191, 186); */
+}
+
+
+div{
+    width: 100%;
+    height: 60px;
+    background-color: bisque;
+    border: 1px dotted gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin: 10px;
+}
+
+p{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(86, 171, 251);
+    color: black;
+    border-radius: 10px;
+}
+
+button{
+    height: 40px;
+    padding: 10px;
+    background-color: rgba(238, 144, 144, 0.345);
+    color: rgb(117, 64, 18);
+    border: 0px;
+    border-radius: 10px;
+
+    margin: 10px;
+}
+
+button:hover{
+    background-color: rgb(255, 167, 67);
+    color:rgb(31, 34, 133);
+}

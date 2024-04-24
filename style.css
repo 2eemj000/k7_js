@@ -24,7 +24,15 @@ header{
     /* 수직으로 중간 위치 */
     align-items: center;
     /* 위아래는 공백 없이, 좌우 공백 주기 */
-    padding: 0px 35px;
+    /* padding: 0px 35px; */
+}
+
+header>h1, header>p{
+    padding: 10px 30px;
+}
+
+header>p {
+    margin-right: 20px;
 }
 
 nav{
