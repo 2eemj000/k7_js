@@ -1,4 +1,27 @@
-#btDiv img{
-    display: inline-flex;
-    margin: 10px;
+
+/* 공통되는 속성은 묶어서 쓸 수 있음 */
+#btDiv4, #btDiv4>section, section>p {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
 }
+
+
+#btDiv4 {
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+  } 
+   
+  
+#btDiv4>section {
+    width: 100%;
+  }
+  
+section>p { 
+    height: 300px;
+    border: none;
+    flex-direction: column;
+    background-color: rgb(247, 243, 230);
+    margin: 0px 20px;
+  }
