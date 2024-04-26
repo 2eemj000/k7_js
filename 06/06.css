@@ -1,0 +1,42 @@
+#btDiv6, #btDiv6 > section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  form {
+    width: 100%;
+  }
+  
+  #btDiv6 {
+    width: 100%;
+    flex-direction: column;
+  
+    background-color: white;
+    height: 200px;
+  }
+  
+  #btDiv6 > section {
+    width: 100%; 
+    background-color: white;
+    /* border: 1px solid black; */
+  }
+  
+  .div6 { 
+    margin-left: 10%;
+    border: none;
+    background-color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  select, input{ 
+    height: 40px;
+  }
+  select {
+    width: 80%;
+  }
+  
+  #txt2 {
+    background-color: beige;
+  }

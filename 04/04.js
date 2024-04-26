@@ -22,27 +22,30 @@ document.addEventListener("DOMContentLoaded", ()=>{
         // console.log(bts);
 
         // //반복문1
-        // console.log('**반복문1**');
-        // for(let i=0-;i<bts.length;i++){
-        //     console.log(bts[i])
+        // console.log('**반복문1**')
+        // for(let i = 0; i < bts.length ; i++) {
+        //   console.log(bts[i])
         // }
 
         // //반복문2
-        //  console.log('**반복문2**');
-        //  for(let i in bts){
-        //      console.log(bts[i])
-        //  }
-
-        // //반복문3
-        //   console.log('**반복문3**');
-        // bts.forEachbt=>{
-        //     console.log(bt)
+        // console.log('**반복문2**');
+        // for(let i in bts) {
+        //   console.log(bts[i])
         // }
 
-        // //반복문4
+        // //반복문3
+        // console.log('**반복문3**');
+        // bts.forEach(bt => {
+        //   console.log(bt)
+        // })
+
+        // //반복문 4
         // console.log('**반복문4**');
-        // for(let bt of bts){
-        //     console.log(bt)
+        // for (let bt of bts) {
+        //   console.log(bt)
+        // }
+        // for (let [i,bt] of bts.entries()) {
+        //   console.log(i, bt)
         // }
 
         // 2. 6개 버튼에 click을 확인 (반복문으로 버튼 6개를 각각 가져옴)

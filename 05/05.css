@@ -1,4 +1,11 @@
 input[type=number]{
     height: 40px;
+    width: 200px;
     font-size: large;
 }
+
+select {
+    height: 40px;
+    width: 200px;
+}
+
