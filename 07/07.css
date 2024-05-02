@@ -1,0 +1,43 @@
+.div71 {
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    border: none;
+  }
+  
+.div72 {
+    width: 100%;  
+    background-color: rgb(255, 255, 255);
+    border: none;
+  }
+  
+.bt7 {
+    width: 100%;
+    background-color: rgb(255, 214, 158);
+  }
+  
+#txt1, #txt2 {
+    width: 100%;
+  }
+#txt2{
+    background-color: rgb(255, 255, 255);
+}
+
+form{
+    padding-left: 0%;
+    margin-left: 0%;
+    background-color: rgb(192, 192, 183);
+}
+
+#btDiv{
+    background-color: rgb(141, 141, 133);
+}
+
+section{
+    width: 100%;
+    margin-left: 0%;
+    padding-left: 0%;
+}
+
+div{
+    margin: 0px;
+}

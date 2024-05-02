@@ -1,0 +1,32 @@
+.div81 {
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    border: none;
+  }
+  
+.div82 {
+    width: 100%;  
+    background-color: rgb(255, 255, 255);
+    border: none;
+  }
+  
+.bt81 {
+    width: 100%;
+    background-color: rgb(255, 200, 80);
+    font-weight: bold;
+  }
+
+.bt82, .bt83 {
+    width: 100%;
+    background-color: rgb(251, 230, 186);
+    font-weight: bold;
+  }
+
+div{
+    margin: 0px;
+  }
+
+article{
+    text-align: center;
+    
+}
